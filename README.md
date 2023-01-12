@@ -40,9 +40,7 @@ Below is an animated visual example of the design, showing off front-end side of
 <p align="center"><img src="https://github.com/ethantl-1511/C-Sharp-Internship/blob/main/_images/CardExample.gif" alt="CardExample"></p>
 <br>
 
-After that, I was tasked with replacing the Index page with a partial view named "\_BlogAuthor.cshmtl" that would reflect the previously created card design. This involved rendering the partial for for each Blog Author in the database.
-
-I was then tasked with creating a Delete functionality asyncronously from the card's front-end interface. This involved adding a Json AsyncDelete method to the Controller, setting up the variables in the partial view, and using JavaScript/Ajax to perform the delete and do an animation reflecting the change for the front-end user.
+After that, I was tasked with replacing the Index page with a partial view named "\_BlogAuthor.cshmtl" that would reflect the previously created card design. This involved rendering the partial for for each Blog Author in the database. I was then tasked with creating a Delete functionality asyncronously from the card's front-end interface. This involved adding a Json AsyncDelete method to the Controller, setting up the variables in the partial view, and using JavaScript/Ajax to perform the delete and do an animation reflecting the change for the front-end user.
 <br><br>
 Below is an animated visual example of JavaScript function in action.
 
@@ -62,13 +60,11 @@ Below is an animated visual example of JavaScript function in action.
 <a href="https://github.com/ethantl-1511/C-Sharp-Internship/tree/main/Views/Shared">Views/Shared</a>*
 
 In this task, I first created the HeadAuthor model to be used as an admin for the Blog Author area and manage other authors. This model would be extended from the ApplicationUser. Afterwards, I needed to create a seed method to create the Head Author user in the database, which involved creating the user role and assigning it. Next, I had to impliment functionality that would restrict any user that was not the HeadAuthor from accessing the Create/Edit/Delete pages. This involved creating a new AccessDenied page to redirect other users to, creating a new class that extends from the Authorize annotation class, and tweaking the Ajax function to redirect.
-
 <br><br>
 Below is an animated visual example of what happens when a user other than Head Author attempts to use the CRUD functionalities.
 
 <p align="center"><img src="https://github.com/ethantl-1511/C-Sharp-Internship/blob/main/_images/AccessDeniedExample.gif" alt="AccessDeniedExample"></p>
 <br>
-
 
 *Jump to: [Introduction](#introduction), [Home Page Styling](#home-page-styling), [Blog-Authors Stories](#blog-authors-stories), [Blog-Head Author Stories](#blog-head-author-stories), [Other Skills](#other-skills-learned), [Page Top](#c-sharp-internship)*
 
