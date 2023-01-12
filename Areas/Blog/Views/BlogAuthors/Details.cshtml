@@ -1,0 +1,98 @@
+﻿@model TheatreCMS3.Areas.Blog.Models.BlogAuthor
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container blogauthors-detailsdelete--navbar">
+    <div class="row">
+        <div class="col"></div>
+
+        @* Jumbotron Navbar *@
+        <div class="col-6 blogauthors-detailsdelete--navbarbox">
+            <div class="jumbotron blogauthors-detailsdelete--navbarbtns">
+                <button type="button" class="btn btn-success" id="blogauthors-detailsdelete--navbtn--1" onclick="AuthorProfileMenuSwitch(1,1)">Author Details</button>
+                <button type="button" class="btn btn-dark" id="blogauthors-detailsdelete--navbtn--2" onclick="AuthorProfileMenuSwitch(2,1)">Blog Posts</button>
+                <button type="button" class="btn btn-dark" id="blogauthors-detailsdelete--navbtn--3" onclick="AuthorProfileMenuSwitch(3,1)">Contact</button>
+            </div>
+        </div>
+
+        <div class="col"></div>
+    </div>
+</div>
+
+<div class="container blogauthors-detailsdelete--main">
+    <div class="row">
+        <div class="col"></div>
+
+        @* Jumbotron Section *@
+    <div class="col-12">
+
+        <div class="jumbotron blogauthors-detailsdelete--jumbotron">
+
+            <div class="container blogauthors-detailsdelete--jumbotroncontent">
+                <div class="row">
+                    <div class="col-5">
+                        <img class="blogauthors-detailsdelete--blogphoto" src="~/Content/images/photo-Placeholder.jpg" alt="AuthorPhoto" />
+                    </div>
+
+                    <div class="col blogauthors-detailsdelete--info">
+                        <div class="blogauthors-detailsdelete--authordetails" id="blogauthors-detailsdelete--authordetails--1">
+                            @* Author Name & Socials *@
+                            <div class="blogauthors-detailsdelete--jttop">
+                                <dd>
+                                    <div class="row">
+                                        <div class="col blogauthors-detailsdelete--authorname">
+                                            @Html.DisplayFor(model => model.Name)
+                                        </div>
+                                        <div class="col blogauthors-detailsdelete--socialmedia">
+                                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f fa-2x"></i></a> &nbsp;
+                                            <a href="https://www.twitter.com/"><i class="fab fa-twitter fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </dd>
+                            </div>
+
+                            @* Author Bio *@
+                            <div class="blogauthors-detailsdelete--jtmid">
+                                <dd>@Html.DisplayFor(model => model.Bio)</dd>
+                            </div>
+
+                            <div class="blogauthors-detailsdelete--jtbottom">
+                                <div class="row">
+                                    @* Autor Join & Left Title *@
+                                    <dt class="col">
+                                        @Html.DisplayNameFor(model => model.Joined)
+                                    </dt>
+                                    <dt class="col">
+                                        @Html.DisplayNameFor(model => model.Left)
+                                    </dt>
+                                    <dt class="w-100"></dt>
+                                    @* Author Join & Left Date *@
+                                    <dd class="col">
+                                        @Html.DisplayFor(model => model.Joined)
+                                    </dd>
+                                    <dd class="col">
+                                        @Html.DisplayFor(model => model.Left)
+                                    </dd>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blogauthors-detailsdelete--blogposts" id="blogauthors-detailsdelete--blogposts--1">
+                            <p>[ The BLOG POSTS section is currently under development. ]</p>
+                        </div>
+                        <div class="blogauthors-detailsdelete--contact" id="blogauthors-detailsdelete--contact--1">
+                            <p>[ The CONTACT section is currently under development. ]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blogauthors-detailsdelete--menubtns">
+            <a href="@Url.Action("Index", "BlogAuthors")" class="btn btn-dark"><i class="fas fa-arrow-circle-left"></i> Back to List</a> &nbsp;
+            <a href="@Url.Action("Edit", "BlogAuthors", new { id=Model.BlogAuthorId })" class="btn btn-success"><i class="far fa-edit"></i> Edit</a>
+            <a href="@Url.Action("Delete", "BlogAuthors", new { id=Model.BlogAuthorId })" class="btn btn-danger blogauthors-detailsdelete--trashbtn"><i class="fas fa-trash"></i></a>
+        </div>
+    </div>
+</div>

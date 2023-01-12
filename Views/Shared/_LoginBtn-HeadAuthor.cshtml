@@ -1,0 +1,5 @@
+﻿@using (Html.BeginForm("HeadAuthorLogin", "Account", new { area = "", ReturnUrl = Request.Url.AbsoluteUri }, FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <input type="submit" value="Log In as Head Author" class="btn btn-danger loginbtn-headauthor-btn" />
+}

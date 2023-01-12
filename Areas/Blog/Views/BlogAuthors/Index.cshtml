@@ -1,0 +1,19 @@
+﻿@model IEnumerable<TheatreCMS3.Areas.Blog.Models.BlogAuthor>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@* Title Section*@
+<div class="blogauthors-detailsdelete--title">
+    <h2>Index of Blog Authors</h2>
+    <a href="@Url.Action("Create", "BlogAuthors")" class="btn btn-success blogauthors-index--createbtn"><i class="fas fa-plus-circle"></i> Create New</a>
+</div>
+
+@* Blog Author Card List section *@
+<table class="table">
+    <tr>
+        @Html.Partial("_BlogAuthor")
+    </tr>
+</table>

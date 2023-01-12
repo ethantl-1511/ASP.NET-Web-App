@@ -1,0 +1,118 @@
+﻿@{
+  ViewBag.Title = "Home Page";
+}
+
+<div>
+    @* Logo Section *@
+    <div class="container home-index--logo">
+        <div class="row">
+            <div class="col-sm"></div>
+            <div class="col-sm">
+                <img class="home-index--logoimage" src="~/Content/images/TheatreLogo.png" alt="Welcome to Theatre Vertigo">
+            </div>
+            <div class="col-sm"></div>
+        </div>
+    </div>
+
+    @* Spotlight & Donations/Sponsors Section *@
+    <div class="container home-index--content">
+        <div class="row">
+            @* Spotlight *@
+            <div class="col-8 home-index--spotlight">
+                <h2>SPOTLIGHT</h2>
+                <hr class="home-index--spotlightunderline">
+                <div>
+                    <img class="home-index--spotlightimages" src="~/Content/images/DollsHouse.png" alt="DollsHouse">
+                    <img class="home-index--spotlightimages" src="~/Content/images/Tempest.png" alt="DollsHouse">
+                </div>
+            </div>
+            @* Donations & Sponsors *@
+            <div class="col-4 home-index--donations">
+                <h2>DONATIONS</h2>
+                <hr class="home-index--underline">
+                @Html.ActionLink("Click to Support", "Donate", new { }, new { @class = "btn home-index--donationbtn btn-lg" })
+                <h2>SPONSORS</h2>
+                <hr class="home-index--underline">
+                <div class="container home-index--sponsors">
+                    <div class="row">
+                        <div class="col">
+                            <img class="home-index--cidarriot" src="~/Content/images/Sponsors/LogoRoundColor.png" alt="CidarRiot">
+                            <img class="home-index--ninkasi" src="~/Content/images/Sponsors/Ninkasi-white-text.png" alt="Ninkasai">
+                        </div>
+                        <div class="col">
+                            <img class="home-index--ellynlogo" src="~/Content/images/Sponsors/Ellyn-Bye-Logo.png" alt="EllynBye">
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col home-index--ofcracc">
+                            <img class="home-index--ofcraccimg" src="~/Content/images/Sponsors/OCF-logo-in-white-with-tagline-lg.png" alt="OregonCommunityFoundation">
+                            <img class="home-index--ofcraccimg" src="~/Content/images/Sponsors/RACC.png" alt="RACC">
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @* Acknowledgement Section *@
+    <div class="container home-index--acknowledgement">
+        <div class="row">
+            @* Land Acknowledgement *@
+            <div class="col-8">
+                <h2>LAND ACKNOWLEDGEMENT</h2>
+                <hr class="home-index--acknowledgementunderline">
+                <p>
+                Theatre Vertigo humbly acknowledges we live and work on the unceded, traditional
+                tribal lands of the Multnomah, Wasco, Clackamas, Chinook bands, Kathlamet, Tualatin
+                Kalapuya, Cowlitz, Mollala, Cascades, Oregon City Tumwater, Confederated Tribes of
+                the Grand Ronde and other indigenous peoples.
+                <br /><br />
+                <strong>We are on stolen land.</strong>
+                <br /><br />
+                Theatre Vertigo has been and continues to examine our community relationships to
+                ensure our collaborators, partners and sponsors support our regions Indigenous
+                Nations and communities.
+                <br /><br />
+                One of the ways Theatre vertigo is working to act on our commitment to being of
+                service to the lands that we now share is to build bridges between our arts
+                community and location Nations.
+                </p>
+            </div>
+            @* NAYA Family Center *@
+            <div class="col-4">
+                <a href="https://nayapdx.org/"><img class="home-index--NAYAimage" src="~/Content/images/NAYAFamilyCenter.jpg" alt="NAYA Family Center"></a>
+                <p>
+                Click to visit the NAYA Family Center to learn more
+                about supporting our local indigenous communities.
+                </p>
+            </div>
+        </div>
+    </div>
+        @*<h1 class="CMS-text-white CMS-text-bigger">Welcome to Theatre Vertigo</h1>*@
+        @*<p class="text-xl-center">@Html.ActionLink("About Theatre Vertigo", "About", new { }, new { @class = "CMS-text-bigger" })</p>*@
+        @*<p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>*@
+        @*<p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>*@
+</div>
+
+
+        @*<div class="row">
+        <div class="col-md-4">
+            <h2>Getting started</h2>
+            <p>
+                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+                enables a clean separation of concerns and gives you full control over markup
+                for enjoyable, agile development.
+            </p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Get more libraries</h2>
+            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Web Hosting</h2>
+            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        </div>
+    </div>*@

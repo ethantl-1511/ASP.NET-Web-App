@@ -1,0 +1,111 @@
+﻿/* CSS color variables */
+:root {
+  /* Color palette for css */
+  --main-color: #db1a11; /* Red */
+  --main-color--light: #f04d44; /* Red, a shade lighter */
+  --secondary-color: #d6972a; /* Yellow gold */
+  --secondary-color--dark: #9d7c39; /* Dark Gold */
+  --light-color: #fffbfb; /* White */
+  --dark-color: #000000; /* Black */
+}
+
+
+
+/*----- Home Page Styling -----*/
+/* Home Logo Styling*/
+.home-index--logo {
+    padding-top: 20%;
+    padding-bottom: 25%;
+}
+.home-index--logoimage {
+    transform: scale(1.75, 1.75);
+}
+    
+/* Home Text Styling */
+.home-index--content h2, .home-index--acknowledgement {
+    font-family: Oswald, sans-sarif;
+}
+.home-index--underline, .home-index--spotlightunderline, .home-index--acknowledgementunderline {
+    background-color: var(--main-color--light);
+    width: 25%;
+    margin: 0;
+    margin-top: 5%;
+    height: 3px;
+}
+.home-index--spotlightunderline, .home-index--acknowledgementunderline {
+    width: 12%;
+    margin-top: 2.4%;
+}
+.home-index--acknowledgement p {
+    padding-top: 2.5%;
+    font-size: larger;
+}
+
+/* Image Styling*/
+.home-index--spotlightimages {
+    padding-top: 5%;
+    width: 100%;
+    padding-right: 5%;
+}
+
+.home-index--cidarriot, .home-index--ninkasi {
+    float: left;
+    width: 50%;
+    margin-top: 15%;
+    padding-right: 10%;
+    transform: scale(1.25, 1.25);
+}
+.home-index--ninkasi {
+    float: right;
+    padding-left: 10%;
+}
+.home-index--ellynlogo, .home-index--ofcracc {
+    width: 100%;
+    margin-top: 15%;
+}
+.home-index--ofcracc {
+    margin-top: 5%;
+}
+.home-index--ofcraccimg {
+    width: 100%;
+}
+
+.home-index--NAYAimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Acknowledgement Styling */
+.home-index--acknowledgement {
+    padding-top: 5%;
+}
+
+/* Home Donation Button Styling*/
+.home-index--donationbtn {
+    background-color: var(--main-color);
+    color: var(--light-color);
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 30%;
+    margin-left: 30%;
+    margin-bottom: 30%;
+}
+.home-index--donationbtn:hover {
+    background-color: var(--main-color--light);
+    color: var(--light-color);
+}
+
+/*----- End Styling for Home Page -----*/
+
+/*----- Head Author Admin Login Button -----*/
+.loginbtn-headauthor-btn {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 185px;
+    z-index: 1;
+}
+/*----- End Styling for Head Author Admin Login Button -----*/

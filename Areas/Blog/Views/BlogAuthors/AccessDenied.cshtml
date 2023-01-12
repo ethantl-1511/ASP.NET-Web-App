@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "AccessDenied";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+        </div>
+        <div class="blogauthors-accessdenied-body">
+            <h2>You are not authorized to visit that page.</h2>
+
+            <img src="~/Content/images/restricted.png" alt="Restricted">
+            <a href="@Url.Action("Login", "Account", new { area = "" })" class="btn btn-success blogauthors-accessdenied-login">Login</a>
+        </div>
+        <div class="col-sm">
+        </div>
+    </div>
+</div>

@@ -1,0 +1,115 @@
+﻿/* ▼ This ▼ is for you to easily reference the colors on the Site.css page */
+/* Do not uncomment these color variables */
+
+/* CSS color variables */
+/*:root { /* Color palette for css */
+/* --main-color: #DB1A11;  Red */
+/*--main-color--light: #F04D44;*/ /* Red, a shade lighter */
+/*--secondary-color: #D6972A;*/ /* Yellow gold */
+/*--secondary-color--dark: #9D7C39;*/ /* Dark Gold */
+/*--light-color: #FFFBFB;*/ /* White */
+/*--dark-color: #000000;*/ /* Black */
+/*}*/
+
+/*----- Blog Authors Styling -----*/
+
+/* Blog Authors partial view styling */
+.blogauthors-partialview-deletemodal {
+    background-color: var(--light-color);
+}
+/* Index Styling */
+.blogauthors-index--createbtn {
+    margin-top: 16px;
+}
+
+.blogauthors-detailsdelete--title {
+    padding-top: 5%;
+    text-align: center;
+    margin-bottom: -2.5%;
+}
+
+.blogauthors-index--menubtns {
+    padding-right: 16px;
+}
+
+/* Jumbotron Navbar Styling */
+.blogauthors-detailsdelete--navbar {
+    padding-top: 5%;
+    margin-bottom: -32px;
+    z-index: -1; /* Keeps Navbar under everything else */
+}
+.blogauthors-detailsdelete--navbarbtns {
+    padding-top: 8px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 0;
+    margin-bottom: 16px;
+}
+
+/* Main jumbotron styling */
+.blogauthors-detailsdelete--main {
+    z-index: 0; /* Puts Jumbotron details on top of navbar */
+}
+.blogauthors-detailsdelete--jumbotron {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* Left-side Jumbotron styling */
+.blogauthors-detailsdelete--blogphoto {
+    border-radius: 4px;
+}
+
+/* Right-side Jumbotron Styling */
+.blogauthors-detailsdelete--info {
+    color: var(--dark-color);
+}
+.blogauthors-detailsdelete--authorname {
+    font-weight: 700;
+    font-size: 26px;
+}
+.blogauthors-detailsdelete--socialmedia {
+    text-align: right;
+}
+
+.blogauthors-detailsdelete--jtmid {
+    padding-top: 4px;
+}
+
+.blogauthors-detailsdelete--jtbottom {
+    position: absolute;
+    bottom: 0;
+}
+
+/* Back to List & Edit Button Styling */
+.blogauthors-detailsdelete--menubtns {
+    margin-top: -24px;
+}
+.blogauthors-detailsdelete--trashbtn {
+    position: absolute;
+    right: 15px;
+}
+/* SAP sections */
+.blogauthors-detailsdelete--blogposts {
+    visibility: hidden; /* section is hidden by default */
+}
+.blogauthors-detailsdelete--contact {
+    visibility: hidden; /* section is hidden by default */
+}
+
+/* Restricted section Styling */
+.blogauthors-accessdenied-body {
+    margin-top: 10%;
+    text-align: center;
+}
+.blogauthors-accessdenied-login {
+    display: block;
+    margin-top: 10%;
+    margin-left: 44%;
+    margin-right: 44%;
+    text-align: center;
+}
+
+/*----- End Styling for Blog Authors -----*/
