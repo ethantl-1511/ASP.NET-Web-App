@@ -238,6 +238,6 @@ Below is an animated visual example of what happens when a user other than Head 
 ## Other Skills Learned
 - Gained experience working with senior developers and management to identify bugs, recieve direction, and solve issues.
 - Attained greater understanding of ASP.NET MVC, .NET Framework, and web-application development.
-- Solving several diffcult tasks with no prior experience gave greater confidence in personal ability.
+- Solving several diffcult tasks with no prior experience or knowledge gave me greater confidence in personal ability.
 
 *Jump to: [Introduction](#introduction), [Home Page Styling](#home-page-styling), [Blog-Authors Stories](#blog-authors-stories), [Blog-Head Author Stories](#blog-head-author-stories), [Other Skills](#other-skills-learned), [Page Top](#c-sharp-internship)*
