@@ -226,7 +226,12 @@ Next, I had to impliment functionality that would restrict any user that was not
     }
 
 Finally, and ONLY for development and testing purposes, I was tasked with creating a button to login the HeadAuthor user automatically. In order to ensure this button only appeared when a user was not logged in, and only in the Blog Author pages, I came up with a simple if statement in the _Layout.cshtml.
-<br><br>
+
+    @if (!Request.IsAuthenticated && Request.Url.AbsoluteUri.Contains("BlogAuthors"))
+    {
+        @Html.Partial("_LoginBtn-HeadAuthor")
+    }
+        
 Below is an animated visual example of what happens when a user other than Head Author attempts to use the CRUD functionalities.
 
 <p align="center"><img src="https://github.com/ethantl-1511/C-Sharp-Internship/blob/main/_images/AccessDeniedExample.gif" alt="AccessDeniedExample"></p>
