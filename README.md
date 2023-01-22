@@ -1,4 +1,4 @@
-# C-Sharp-Internship
+# C# Internship
 
 ## Introduction
 During this two-week internship with Prosper IT Consulting, I participated in an ASP.NET MVC web-application for a theater company in Oregon. I came into the project mid-development, initially reviewing code and documentation before beginning work. My work involved setting up and styling the Home page, and setting up the Blog-specific area of the website. By the end of the sprint, I had completed three important parts of the website.
