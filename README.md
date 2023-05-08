@@ -5,7 +5,7 @@ During this two-week internship with Prosper IT Consulting, I participated in an
 
 The first story I completed was [creating and styling the Home Page](#home-page-styling). I was given a reference to work from, and using Bootstrap 4 and CSS, I made a professionally designed page. After that, I was assigned to the Blog-section of the website, and began with four stories setting up the section where you could view [a list of blog authors.](#blog-authors-stories) After successfully setting that up, I was given another four stories to [create a Head Author admin user](#blog-head-author-stories) to restrict Creating, Updating, and Deleting functionalities.
 
-Below are further descriptions of the extent of my work, along with code snippets animated visual examples. The full code for all of my personal work files are also in this repository.
+Below are further descriptions of the extent of my work, along with code snippets and animated visual examples. The full code for all of my personal work files are also in this repository.
 
 *Jump to: [Introduction](#introduction), [Home Page Styling](#home-page-styling), [Blog-Authors Stories](#blog-authors-stories), [Blog-Head Author Stories](#blog-head-author-stories), [Other Skills](#other-skills-learned), [Page Top](#c-sharp-internship)*
 
