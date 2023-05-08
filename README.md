@@ -241,7 +241,7 @@ Below is an animated visual example of what happens when a user other than Head 
 
 
 ## Other Skills Learned
-- Gained experience working with senior developers and management to identify bugs, recieve direction, and solve issues.
+- Gained experience working with senior developers and management to identify bugs, receive direction, and solve issues.
 - Attained greater understanding of ASP.NET MVC, .NET Framework, and web-application development.
 - Solving several diffcult tasks with no prior experience or knowledge gave me greater confidence in personal ability.
 
