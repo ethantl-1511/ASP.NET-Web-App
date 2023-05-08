@@ -39,7 +39,7 @@ For this task, I first created the BlogAuthor database model and scaffolded the 
     function AuthorProfileMenuSwitch(buttonID, panelID)
     {
         switch (buttonID % 3) // if another button is added, increment by 1
-        {   // checks each what buttonID is clicked and changes button-specific classes and panel-specific details accordingly
+        {   // checks each buttonID is clicked and changes button-specific classes and panel-specific details accordingly
             case 1:
                 {
                     $("#blogauthors-detailsdelete--navbtn--" + buttonID).removeClass('btn-dark').addClass("btn-success");
